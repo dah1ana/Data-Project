@@ -1,0 +1,8 @@
+> g <- d$Sleep_Hours_Schoolnight
+> mean(g)
+[1] 5.704255
+> sd(g)
+[1] 1.533674
+> x <- rnorm(47, mean=5.7,sd=1.53)
+> hist(x,prob=TRUE)
+> curve(dnorm(x,mean=5.7,sd=1.53),add=TRUE)
