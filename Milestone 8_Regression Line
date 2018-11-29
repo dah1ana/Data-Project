@@ -1,0 +1,8 @@
+> plot(Doing_Homework_Hours ~ Sleep_Hours_Schoolnight, data=students)
+> students.lm <- lm(Doing_Homework_Hours ~ Sleep_Hours_Schoolnight, data=students)
+> coef(students.lm)
+            (Intercept) Sleep_Hours_Schoolnight 
+            12.29275410             -0.07370176 
+> abline(coef(students.lm))
+> cor(students$Doing_Homework_Hours, students$Sleep_Hours_Schoolnight)
+[1] -0.009166186
