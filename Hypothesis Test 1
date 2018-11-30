@@ -1,0 +1,11 @@
+> xbar = 11.8
+> mu0 = 15
+> sigma = 12.3
+> n = 48
+> z = (xbar-mu0)/(sigma/sqrt(n))
+> z
+[1] -1.802459
+> alpha = 0.05
+> z.half.alpha = qnorm(1-alpha/2)
+> c(-z.half.alpha, z.half.alpha)
+[1] -1.959964  1.959964
