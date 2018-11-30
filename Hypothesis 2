@@ -1,0 +1,10 @@
+> pbar = 46/48
+> p0= .2
+> n= 48
+> z = (pbar-p0)/sqrt(p0*(1-p0)/n) 
+> z
+[1] 13.13472
+> alpha = .05
+> z.alpha = qnorm(1-alpha)
+> -z.alpha
+[1] -1.644854
