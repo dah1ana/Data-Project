@@ -1,0 +1,12 @@
+> mean(students$Doing_Homework_Hours)
+[1] 11.87234
+> sd(students$Doing_Homework_Hours)
+[1] 12.33168
+> mean(students$Text_Messages_Sent_Yesterday)
+[1] 136.7872
+> sd(students$Text_Messages_Sent_Yesterday)
+[1] 325.0832
+> mean(students$Travel_time_to_School)
+[1] 42.95745
+> sd(students$Travel_time_to_School)
+[1] 37.85783
