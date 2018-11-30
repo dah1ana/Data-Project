@@ -1,0 +1,3 @@
+> plot(students$Text_Messages_Sent_Yesterday)
+> hist(students$Sleep_Hours_Schoolnight)
+> hist(students$Reaction_time)
