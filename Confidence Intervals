@@ -1,4 +1,4 @@
-
+#Students Doing Homework Hours
 > mean <- 11.8723
 > sd <- 12.331
 > n <- 48
@@ -9,3 +9,4 @@
 [1] 8.383904
 > right
 [1] 15.3607
+
