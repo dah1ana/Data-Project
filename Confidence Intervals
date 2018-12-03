@@ -10,3 +10,29 @@
 > right
 [1] 15.3607
 
+#Text Messages Sent Yesterday
+> mean <- 136.787
+> sd <- 325.083
+> n<- 48
+> error <- qnorm(0.975)*sd/sqrt(n)
+> left <- mean-error
+> right <- mean+error
+> left
+[1] 44.82218
+> right
+[1] 228.7518
+
+#Travel Time to School
+> mean <- 42.95745
+> sd <- 37.85783
+> n <- 48
+> error <- qnorm(0.975)*sd/sqrt(n)
+> left <- mean - error
+> right mean + error
+Error: unexpected symbol in "right mean"
+> right <- mean + error
+> left
+[1] 32.2476
+> right
+[1] 53.6673
+> 
