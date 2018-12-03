@@ -1,0 +1,11 @@
+
+> mean <- 11.8723
+> sd <- 12.331
+> n <- 48
+> error <- qnorm(0.975)*sd/sqrt(n)
+> left <- mean-error
+> right <- mean+error
+> left
+[1] 8.383904
+> right
+[1] 15.3607
